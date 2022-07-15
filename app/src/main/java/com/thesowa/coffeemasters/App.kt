@@ -25,7 +25,9 @@ fun App() {
           AppTitle()
       }
     }, bottomBar = {
-        NavBar(onChange = { newRoute ->
+        NavBar(
+            selectedRoute = currentPage.value,
+            onChange = { newRoute ->
             currentPage.value = newRoute
         })
     }) {
