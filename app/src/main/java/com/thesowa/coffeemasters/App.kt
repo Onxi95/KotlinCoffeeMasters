@@ -12,6 +12,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.thesowa.coffeemasters.pages.InfoPage
 
 @Preview
 @Composable
@@ -35,7 +36,7 @@ fun App() {
             Routes.MenuPage.route -> Text(text = "Menu")
             Routes.OffersPage.route -> OffersPage()
             Routes.OrderPage.route -> Text(text = "Order")
-            Routes.InfoPage.route -> Text(text = "Info")
+            Routes.InfoPage.route -> InfoPage()
         }
     }
 }
