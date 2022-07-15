@@ -33,6 +33,10 @@ fun OffersPage() {
     ) {
         Offer(title = "Early Coffe", description = "10% off. Offer valid from 6am to 9am.")
         Offer(title = "Welcome Gift", description = "25% off on your first order.")
+        Offer(title = "Early Coffe", description = "10% off. Offer valid from 6am to 9am.")
+        Offer(title = "Welcome Gift", description = "25% off on your first order.")
+        Offer(title = "Early Coffe", description = "10% off. Offer valid from 6am to 9am.")
+        Offer(title = "Welcome Gift", description = "25% off on your first order.")
     }
 }
 
@@ -50,6 +54,7 @@ fun Offer(title: String, description: String = "") {
             Text(
                 text = title,
                 style = MaterialTheme.typography.h5,
+                color = Color.White,
                 modifier = Modifier
                     .padding(16.dp)
                     .background(MaterialTheme.colors.primary)
