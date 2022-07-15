@@ -1,0 +1,14 @@
+*.iml
+.gradle
+local.properties
+.idea
+.DS_Store
+build
+captures
+.externalNativeBuild
+node_modules
+*.apk
+*.aab
+*.idsig
+*.keystore
+signing-key-info.txt
