@@ -46,7 +46,8 @@ fun FirstComposable() {
         Text("Hello ${name.value}", modifier = Modifier
             .padding(16.dp)
             .background(Color.Yellow)
-            .padding(16.dp))
+            .padding(16.dp),
+            style = MaterialTheme.typography.body2)
         TextField(value = name.value, onValueChange = {
             name.value = it
         }, modifier = Modifier.padding(16.dp))
