@@ -31,7 +31,12 @@ fun App() {
             currentPage.value = newRoute
         })
     }) {
-        OffersPage()
+        when(currentPage.value) {
+            Routes.MenuPage.route -> Text(text = "Menu")
+            Routes.OffersPage.route -> OffersPage()
+            Routes.OrderPage.route -> Text(text = "Order")
+            Routes.InfoPage.route -> Text(text = "Info")
+        }
     }
 }
 
