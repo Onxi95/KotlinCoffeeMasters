@@ -49,6 +49,6 @@ fun FirstComposable() {
             .padding(16.dp))
         TextField(value = name.value, onValueChange = {
             name.value = it
-        })
+        }, modifier = Modifier.padding(16.dp))
     }
 }
